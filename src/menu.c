@@ -9,12 +9,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "_include.h"
-
 /**
  * Display the main menu and wait for user choice.
  */
-int main(void) {
-	display_menu();
-	return EXIT_SUCCESS;
+void display_menu() {
+	printf("Menu");
+}
+
+/**
+ * Display the difficulty level sub menu.
+ */
+void display_level(){
+
 }
