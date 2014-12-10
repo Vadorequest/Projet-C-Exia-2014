@@ -33,3 +33,10 @@ void clear_buffer()
 void shell_clear() {
 	system("clear");
 }
+
+void display_error_scanf() {
+	printf("\a\n\n Erreur: Votre choix est incorrect.\n\n\n\n\a");
+
+	// Vider le buffer afin que le caractère présent dedans soit effacé et ne fasse pas planter le programme
+	clear_buffer();
+}

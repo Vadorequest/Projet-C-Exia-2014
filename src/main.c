@@ -15,7 +15,6 @@
  * Display the main menu and wait for user choice.
  */
 int main(void) {
-	//change_shell_size();
 	display_menu();
 	return EXIT_SUCCESS;
 }
