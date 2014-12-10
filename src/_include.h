@@ -5,7 +5,10 @@
 #include "hanjie.h"
 #include "history.h"
 #include "menu.h"
+#include "utilities.h"
 
+#include "S_Cell.h"
+#include "S_Game.h"
 #include "S_Player.h"
 
 #endif

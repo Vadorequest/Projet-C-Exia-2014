@@ -14,6 +14,7 @@ typedef struct game
     int level;// Difficulty level
     int datetime_start;// When the game started.
     int type;// Type of the game.
+    //int[][] grid;// Contains the grid of the game.
 
 }Game;
 

@@ -6,16 +6,17 @@
  ============================================================================
  */
 
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef S_CELL_H
+#define S_CELL_H
 
-#include "_include.h"
+#define CELL_EMPTY 0
+#define CELL_CHECKED 1
 
-/**
- * Display the main menu and wait for user choice.
- */
-int main(void) {
-	//change_shell_size();
-	display_menu();
-	return EXIT_SUCCESS;
-}
+typedef struct cell
+{
+	int value;// Whether the cell is checked or not.
+
+}Cell;
+
+
+#endif

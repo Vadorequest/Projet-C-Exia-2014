@@ -12,10 +12,24 @@
 #include "_include.h"
 
 /**
- * Display the main menu and wait for user choice.
+ * Change the screen size of the shell.
  */
-int main(void) {
-	//change_shell_size();
-	display_menu();
-	return EXIT_SUCCESS;
+void change_shell_size() {
+	system("MODE con cols=170 lines=60");
+}
+
+/**
+ * Clear the buffer to ensure it is empty.
+ */
+void clear_buffer()
+{
+    int c = 0;
+    while (c != '\n' && c != EOF)
+    {
+        c = getchar();
+    }
+}
+
+void shell_clear() {
+	system("clear");
 }
