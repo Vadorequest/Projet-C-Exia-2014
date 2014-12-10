@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "_include.h"
+
 #define SAVE_FILENAME "save.txt"
 
 #define GAME_RUNNING 0

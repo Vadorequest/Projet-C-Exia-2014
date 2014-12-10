@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "_include.h"
+
 #define HISTORY_FILENAME "history.txt"
 
 /**
