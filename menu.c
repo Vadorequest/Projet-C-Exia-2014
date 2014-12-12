@@ -21,8 +21,9 @@ void display_menu() {
 	printf("1 - Jouer\n");
 	printf("2 - Charger une partie existante\n");
 	printf("3 - Options\n");
+	printf("4 - Quitter\n");
 
-	scanf("%d", &choix);
+	//scanf("%d", &choix);// If uncommented, then won't show anything on the console output.
 	shell_clear();
 
 	switch(choix) {
@@ -33,9 +34,15 @@ void display_menu() {
 		case 2:
 			select_save_to_load();
 			break;
+		case 23:
+			// Options
+			break;
+		case 4:
+			// Quit.
+			break;
 		default:
 			display_error_scanf();
-			display_menu();
+//			display_menu();
 		break;
 	}
 }
